@@ -8,6 +8,7 @@
             "args": [
                 "/Zi",
                 "/EHsc",
+                "/std:c++20", // Add this line
                 "/Fe:",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "${file}"
@@ -44,6 +45,7 @@
                 "/Zi",
                 "/EHsc",
                 "/nologo",
+                "/std:c++20", // Add this line
                 "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "${file}"
             ],
